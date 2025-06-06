@@ -9,20 +9,10 @@ const nextConfig: NextConfig = {
         port: ''
       },
       {
-        hostname: 'www.google.com',
+        hostname: 'images.unsplash.com',
         protocol: 'https',
         port: ''
       },
-      {
-        hostname: 'cdn.sanity.io',
-        protocol: 'https',
-        port: ''
-      },
-      {
-        hostname: 'image.api.playstation.com',
-        protocol: 'https',
-        port: ''
-      }
     ]
   } 
 };
