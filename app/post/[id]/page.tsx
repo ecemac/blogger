@@ -18,10 +18,10 @@ async function getData(id: string) {
   return data;
 }
 
-type Params = Promise<{ id: string }>;
+type Params = { id: string };
 
-export default async function IdPage({ params }: { params: Params }) {
-  const { id } = await params;
+export default async function Post({ params }: { params: Params }) {
+  const { id } = params;
   const data = await getData(id);
 
   return (
